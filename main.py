@@ -8,7 +8,7 @@ customtkinter.set_default_color_theme("blue")
 def criar_janela_vazia():
     nova_janela = customtkinter.CTk()
     nova_janela.geometry("500x300")
-    nova_janela.withdraw()  # Iniciar a janela oculta
+    nova_janela.withdraw()  # Iniciar a janela oculta.
     return nova_janela
 
 def esconder_janela_atual():
