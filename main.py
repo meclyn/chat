@@ -12,7 +12,7 @@ def criar_janela_vazia():
     return nova_janela
 
 def esconder_janela_atual():
-    janela.withdraw()  # Esconder a janela principal
+    janela.withdraw()  # Esconder a janela principal.
 
 def exibir_janela_vazia(nova_janela):
     nova_janela.deiconify()  # Exibir a nova janela
